@@ -112,6 +112,9 @@ with st.expander("Youtube取得"):
 mp4_files = glob.glob(MP4_PATH + '*.mp4')
 # mp4_filesの中身を全て加工
 mp4_files = [os.path.basename(mp4_file) for mp4_file in mp4_files]
+if len(mp4_files) == 0:
+    st.warning("上記よりYoutube動画のURLを入力して、動画をダウンロードしてください。")
+    exit()
 mp4_file_name = mp4_files[0]
 
 # selectboxで動画を選択する
