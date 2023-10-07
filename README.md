@@ -7,7 +7,7 @@ cp .env.sample .env
 
 .envファイルの設定（OPENAI_API_KEYは[こちら](https://platform.openai.com/account/api-keys)から取得）
 ```Shell
-OPENAI_API_KEY=
+OPENAI_API_KEY=<YOUR API KEY>
 ```
 
 必要な方はpoetryをインストール
