@@ -1,0 +1,93 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyInstaller
+# 以下の行は、PyInstallerを使用して作成された実行可能ファイルを無視するためのものです。
+# この行は、PyInstallerを使用していない場合は削除してください。
+# https://pyinstaller.readthedocs.io/en/stable/spec-files.html#using-spec-files
+*.spec
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# pytest
+# 以下の行は、pytestを使用してテストファイルを無視するためのものです。
+# この行は、pytestを使用していない場合は削除してください。
+# https://docs.pytest.org/en/latest/goodpractices.html#pytest-recommended-ignore-patterns
+pytest_cache/
+.pytest_cache/
+
+# Sphinx documentation
+# 以下の行は、Sphinxドキュメントを無視するためのものです。
+# この行は、Sphinxを使用していない場合は削除してください。
+docs/_build/
+
+# PyBuilder
+# 以下の行は、PyBuilderを使用してビルドされたファイルを無視するためのものです。
+# この行は、PyBuilderを使用していない場合は削除してください。
+target/
+
+# IPython Notebook
+# 以下の行は、IPython Notebookのキャッシュファイルを無視するためのものです。
+# この行は、IPython Notebookを使用していない場合は削除してください。
+.ipynb_checkpoints
+
+# pyenv
+# 以下の行は、pyenvを使用してPythonバージョンを管理するためのものです。
+# この行は、pyenvを使用していない場合は削除してください。
+.python-version
+
+# pipenv
+# 以下の行は、pipenvを使用してパッケージを管理するためのものです。
+# この行は、pipenvを使用していない場合は削除してください。
+Pipfile.lock
+
+# Pylance
+# 以下の行は、Pylanceのキャッシュファイルを無視するためのものです。
+# この行は、Pylanceを使用していない場合は削除してください。
+.pylance/
+
+# Poetry
+# 以下の行は、Poetryを使用してパッケージを管理するためのものです。
+# この行は、Poetryを使用していない場合は削除してください。
+.poetry/
+
+# dotenv
+# 以下の行は、dotenvを使用して環境変数を管理するためのものです。
+# この行は、dotenvを使用していない場合は削除してください。
+.env
+
+# vscode
+# 以下の行は、Visual Studio Codeの設定ファイルを無視するためのものです。
+# この行は、Visual Studio Codeを使用していない場合は削除してください。
+.vscode/
+
+
+*.mp3
+*.mp4
+*.jpg

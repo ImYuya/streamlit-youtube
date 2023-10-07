@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "streamlit-youtube"
+version = "0.1.0"
+description = ""
+authors = ["fujiwara <redbreaker.g@gmail.com>"]
+readme = "README.md"
+packages = [{include = "streamlit_youtube"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+streamlit = "^1.24.1"
+pytube = "^15.0.0"
+moviepy = "^1.0.3"
+youtube-dl = "^2021.12.17"
+ipykernel = "^6.24.0"
+yt-dlp = "^2023.7.6"
+openai = "^0.27.8"
+ffmpeg-python = "^0.2.0"
+python-dotenv = "^1.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
